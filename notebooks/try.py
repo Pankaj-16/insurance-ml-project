@@ -7,12 +7,12 @@ print(df)
 #print(pd.get_dummies(df, drop_first= 1))
 #df['Vehicle_Damage'] = df['Vehicle_Damage'].map({'Yes': "Tut Gya", 'No': "Bach Gya"})
 
-print(len(df[
-    (df['Gender']=="Male")
-    &
-    (df['Age'].duplicated())
-#['Age'].unique()
-&
-(df['Response'] ==1)]))
+# print(len(df[
+#     (df['Gender']=="Male")
+#     &
+#     (df['Age'].duplicated())
+# #['Age'].unique()
+# &
+# (df['Response'] ==1)]))
 
-print(df)
+print(df.describe())
