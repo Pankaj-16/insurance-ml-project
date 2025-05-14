@@ -13,3 +13,7 @@ __pycache__/
 
 # Ignore data files (optional, or just raw)
 data/raw/*
+
+.kaggle/
+kaggle.json
+
